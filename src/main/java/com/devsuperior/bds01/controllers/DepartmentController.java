@@ -1,4 +1,4 @@
-package com.devsuperior.bds01.controller;
+package com.devsuperior.bds01.controllers;
 
 import com.devsuperior.bds01.dto.DepartmentDTO;
 import com.devsuperior.bds01.services.DepartmentService;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/department")
+@RequestMapping("/departments")
 public class DepartmentController {
 
     @Autowired
